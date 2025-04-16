@@ -57,28 +57,23 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Mbuvi_Tech.sendMessage(Pair_Code_By_Mbuvi_Tech.user.id, { text: '' + b64data });
 
                let MBUVI_MD_TEXT = `
-        𝙎𝙀𝙎𝙎𝙄𝙊𝙉 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘿
-        
-         𝙏𝙤𝙭𝙞𝙘-𝙈𝘿 𝙇𝙤𝙜𝙜𝙚𝙙  
+      Bellah Xmd V2 Sucess Scan Session 
+> Bot repo: Https://GitHub.com/Tennor-modz/Bellah-Xmd 
 
-『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-> 𝐎𝐰𝐧𝐞𝐫: 
-_https://wa.me/254735342808_
+> Owner: *Giddy Tennor*
 
-> 𝐑𝐞𝐩𝐨: 
-_https://github.com/xhclintohn/Toxic-MD_
-
-> 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: 
-_https://chat.whatsapp.com/GoXKLVJgTAAC3556FXkfFI_
-
-> 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥:
- _https://whatsapp.com/channel/0029VagJlnG6xCSU2tS1Vz19_
- 
-> 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦:
- _https://www.instagram.com/xh_clinton_
+> BotName: *VolTah Xmd* 
 
 
-Don't Forget To Give Star and fork My Repo :)`
+*Follow support for updates*
+https://whatsapp.com/channel/0029VaPZWbY1iUxVVRIIOm0D
+
+*Join Group*
+
+https://chat.whatsapp.com/CzFlFQrkdzxFw0pxCBYM7H
+
+
+> Regards Giddy Tennor_:)`
 
  await Pair_Code_By_Mbuvi_Tech.sendMessage(Pair_Code_By_Mbuvi_Tech.user.id,{text:MBUVI_MD_TEXT},{quoted:session})
  
